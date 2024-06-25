@@ -6,9 +6,9 @@
 #include <iostream>
 using namespace std;
 
-void multiplicationTable(int table,int start, int end){
+void multiplicationTable(int table,int start, int end){ // Function to calculate the (numbers x numbers)
     
-    while (start <= end){
+    while (start <= end){ // while loop to print the multiplication-table result
         cout << table << " x " << start << " = " << table*start << endl;
         start++;
     }
