@@ -16,9 +16,9 @@ void multiplicationTable(int table,int start, int end){ // Function to calculate
 
 int main()
 {
-    int table;
-    int end;
-    int start;
+    int table; // Declaring a variable for taking in numbers and finding that numbers multiplication table
+    int end; // Another declared variable for taking in numbers for the stopping point
+    int start; // variable to start the operation from
     
     start = 0;
     
