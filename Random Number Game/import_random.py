@@ -27,7 +27,7 @@ while True:
             os.system("shutdown /s /t 0")
         # Shutdown command for macOS (requires 'sudo' and admin password)
         elif platform.system() == "Darwin":
-            os.system("sudo shutdown -h now")
+            os.system("osascript -e 'tell application \"System Events\" to shut down'")
         else:
             print("Incorrect guess! Try again.")
 
